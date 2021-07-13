@@ -1,11 +1,8 @@
-/**
- * @format
- */
-
-import {AppRegistry} from 'react-native';
-// import App from './source/SignUp';
-import App from './App';
-import {name as appName} from './app.json';
 
 
-AppRegistry.registerComponent(appName, () => App);
+const images={
+    haircutProfile:require("./haircutProfile.jpg")
+}
+
+
+export default images;
